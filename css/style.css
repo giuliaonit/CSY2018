@@ -1,0 +1,184 @@
+/*Cornelia Iulia Ilie https://github.com/giuliaonit*/
+
+html{
+    display: flex;
+
+}
+body {
+    display: flex;
+  background-image: url("../images/woman.jpg" );
+  background-size:cover;
+}
+
+
+
+.logo-text {
+    font-family: 'garamond',cursive;
+    text-align: center;
+    font-size: 60px;
+}
+strong {
+    font-weight: bold;
+}
+
+/* page layout */
+
+.content {
+    padding: 0;
+    margin: 0;
+    padding-top: 50px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    font-family: 'garamond',cursive;
+}
+
+/* frames */
+
+.no1fr {
+    padding: 0px;
+    margin: 0px;
+    order: 1 flex: 1 1 auto;
+    align-self: center;
+    min-width: auto;
+    max-width: auto;
+    min-height: auto;
+    font-family: 'garamond',cursive;
+}
+
+.no2fr {
+    padding: 2px;
+    margin: 2px;
+    order: 2 flex: 1 1 auto;
+    align-self: stretch;
+    min-width: auto;
+    max-width: auto;
+    min-height: auto;
+  /*  background: #d8c624;
+    background-color: #d8c624; */
+   font-family: 'garamond',cursive;
+   font-
+    text-align: center;
+    font-size: 28px;
+}
+
+
+
+/* header style */
+
+h1{
+  color: white;
+  text-align: center;
+  text-shadow:
+    -1px -1px 0 #000,
+     1px -1px 0 #000,
+    -1px 1px 0 #000,
+     1px 1px 0 #000;
+}
+
+
+/*  */
+p{
+  color: white;
+  text-align: center;
+  text-shadow:
+    -1px -1px 0 #000,
+     1px -1px 0 #000,
+    -1px 1px 0 #000,
+     1px 1px 0 #000;
+  max-width:649px;
+}
+
+
+/*website inspo style*/
+.inspo {
+  max-width: 683px;
+}
+
+/* nav bar */
+
+ul {
+    list-style-type: none;
+    top: 0;
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    overflow: hidden;
+    width: 100%;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: pink;
+    text-align: left;
+    text-shadow:
+      -1px -1px 0 #002,
+       1px -1px 0 #003,
+      -1px 1px 0 #000,
+       1px 1px 0 #000;
+    text-align: center;
+    padding: 7px 29px;
+    text-decoration: none;
+    font-family: 'bookman',cursive;
+    font-size: 28px;
+}
+
+
+li a.active {
+    text-decoration: underline;
+    font-size: 30px;
+}
+
+li a:hover:not(.active) {
+    text-decoration: overline;
+}
+
+a[href] {
+    text-decoration: none;
+}
+
+.h1 {
+    text-align: center;
+}
+
+
+/* Form */
+
+form {
+    border: 2px;
+    padding: 16px;
+    width: auto;
+    min-width: auto;
+    max-width: auto;
+    align-items: center;
+    color: white;
+    text-align: center;
+    text-shadow:
+      -1px -1px 0 #003,
+       1px -1px 0 #030,
+      -1px 1px 0 #000,
+       1px 1px 0 #000;
+}
+
+.form-name {
+    margin-top: 2;
+}
+
+.form-box {
+    margin-bottom: 8px;
+}
+
+textarea {
+    width: 100%;
+    resize: none;
+}
+
+fieldset {
+    width: inherit;
+}
